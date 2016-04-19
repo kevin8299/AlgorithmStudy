@@ -6,10 +6,10 @@ package com.leetcode.maximum_subarray;
 public class Test {
     public static void main(String[] args) {
         System.out.println("test");
-        //int[] data = {-2, 1, -3, 4, -1, 2, 1, -5, 4};  // {4,−1,2,1} -- 6
-        int[] data = {-1}; //{8, -19, 5, -4, 20};
-        Solution s = new Solution();
-        //Solution_DividConquer s = new Solution_DividConquer();
+        int[] data = {-2, 1, -3, 4, -1, 2, 1, -5, 4};  // {4,−1,2,1} -- 6
+        //int[] data = {-1}; //{8, -19, 5, -4, 20};
+        //Solution s = new Solution();
+        Solution_DivideConquer s = new Solution_DivideConquer();
         //Solution_SumFirst s = new Solution_SumFirst();
         int result = s.maxSubArray(data);
 
