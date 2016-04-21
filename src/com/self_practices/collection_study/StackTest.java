@@ -1,4 +1,4 @@
-package com.collection_study;
+package com.self_practices.collection_study;
 
 /**
  * Created by Administrator on 2016/4/8.
